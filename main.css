@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{width: 100%;
+    overflow: hidden;
+}
+.osn{margin-left: 0;
+    width: 100%;
+    height: 50vh;
+position: relative;
+
+transition: 1s;
+}
+.osn li{padding: 50vh 50%;
+    list-style-type: none;
+    display: inline;
+}
+.osn li:nth-last-of-type(1){
+    background: black;
+   
+}
+
+.osn li:nth-last-of-type(2){
+    background: green;
+    
+}
+.osn li:nth-last-of-type(3){
+    background:rgb(2, 26, 245);
+    
+}
+.osn li:nth-last-of-type(4){
+    background: yellow;
+    
+}
+.but1{margin-top: -25vh;
+    position: absolute;
+   color: rgb(255, 0, 191);
+    width: 10%;
+    font-size:10vh;
+    height: 19vh;
+    background: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.but2{margin-top: -25vh;
+    position: absolute;
+    margin-left: 95%;
+    width: 1%;
+    font-size:10vh;
+    height: 19vh;
+    background: none;
+    color: rgb(255, 0, 191);
+    cursor: pointer;
+    transition: 1s;
+  
+}
+.but1:hover{
+    margin-left: 1%;
+    transform: scale(1.2);
+}
+.but2:hover{
+    margin-right: 2%;
+    transform: scale(1.2);
+}
